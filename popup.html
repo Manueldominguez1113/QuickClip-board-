@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Clip</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+<div class="container">
+    <h1>Quick Clip</h1>
+
+    <div class="controls">
+        <label for="fieldName">Field Name</label>
+        <input type="text" id="fieldName" placeholder="Example: Full Name">
+        <br>
+        <label for="fieldValue">Field Value</label>
+        <input type="text" id="fieldValue" placeholder="Example: Merk Fishback">
+
+    </div>
+
+    <button id="addField">Add</button>
+
+    <br><br>
+    <table>
+        <thead>
+        <tr>
+            <th>Field</th>
+            <th>Value</th>
+            <th>Copy</th>
+        </tr>
+        </thead>
+        <tbody id="fieldsTable">
+        </tbody>
+    </table>
+
+    <button id="clearAll" class="danger">🗑️ Clear All</button>
+
+    <script src="popup.js"></script>
+</div>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Quick job Clipboard",
+  "version": "0.5",
+  "description": "save and quickly copy details to your clipboard without having to change windows often",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "open Clipboard Manager"
+  },
+  "commands": {
+    "_execute_action":{
+      "suggested_key": {
+        "default": "Alt+Shift+Q"
+      }
+    }
+  }
+
+}
